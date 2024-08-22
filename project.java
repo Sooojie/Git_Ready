@@ -22,6 +22,6 @@ public class project {
         
 
         // Print their BMI
-        System.out.println("Your BMI is not " + BMI + " percent ");
+        System.out.println("Your BMI is " + BMI + " percent ");
     }
 }
