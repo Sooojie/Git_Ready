@@ -13,15 +13,15 @@ public class project {
         double BMI;
 
         // print question and get answers
-        System.out.println("What is your weight (kilograms) and height (inches)?");
+        System.out.println("What is your weight (pounds) and height (inches)?");
         weight = scnr.nextDouble();
         height = scnr.nextDouble();
 
         // Calculate BMI
-        BMI = (weight*503) / Math.pow(height, 2);
+        BMI = (weight*703) / Math.pow(height, 2);
         
 
         // Print their BMI
-        System.out.println("Your BMI is not " + BMI + " percent ");
+        System.out.println("Your BMI is " + BMI + " percent.");
     }
 }
