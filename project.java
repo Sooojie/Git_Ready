@@ -18,10 +18,10 @@ public class project {
         height = scnr.nextDouble();
 
         // Calculate BMI
-        BMI = (weight*500) / Math.pow(height, 2);
+        BMI = (weight*703) / Math.pow(height, 2);
         
 
         // Print their BMI
-        System.out.println("Your BMI is not " + BMI + " percent ");
+        System.out.println("Your BMI is " + BMI + " percent ");
     }
 }
